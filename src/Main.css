@@ -1,0 +1,95 @@
+.Main {
+	min-height: 100vh;
+	background-color: #090F1F;
+	color: #FFF6E1;
+
+	display: flex;
+}
+
+.menu_bars {
+	height: 64px;
+
+	position: fixed;
+	top: 110px;
+	left: 106px;
+}
+.menu_bars:hover{
+	color: #F1A175;
+}
+.menu_bars:active{
+	color: #E88A85;
+}
+
+.facebook_icon {
+	height: 61px;
+
+	position: fixed;
+	top: 92px;
+	right: 370px;
+}
+.github_icon {
+	height: 61px;
+
+	position: fixed;
+	top: 92px;
+	right: 260px;
+}
+.linkedin_icon {
+	height: 61px;
+
+	position: fixed;
+	top: 92px;
+	right: 150px;
+}
+.facebook_icon:hover {
+	color: #F1A175;
+}
+.github_icon:hover {
+	color: #F1A175;
+}
+.linkedin_icon:hover {
+	color: #F1A175;
+}
+.facebook_icon:active {
+	color: #E88A85;
+}
+.github_icon:active {
+	color: #E88A85;
+}
+.linkedin_icon:active {
+	color: #E88A85;
+}
+
+/*
+ * for when adjusted for phone resolution
+ * */
+@media (max-width: 1024px) {
+.menu_bars {
+	height: 48px;
+
+	position: fixed;
+	top: 98px;
+	left: 50px;
+}
+.facebook_icon {
+	height: 48px;
+
+	position: fixed;
+	top: 92px;
+	right: 190px;
+}
+.github_icon {
+	height: 48px;
+
+	position: fixed;
+	top: 92px;
+	right: 120px;
+}
+.linkedin_icon {
+	height: 48px;
+
+	position: fixed;
+	top: 92px;
+	right: 50px;
+}
+}
