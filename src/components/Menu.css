@@ -1,0 +1,8 @@
+.menu {
+	display: flex;
+	color: red;
+	background-color: blue;
+	width: 90vw;
+	height: 90vh;
+	margin: auto;
+}

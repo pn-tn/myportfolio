@@ -10,8 +10,8 @@
 	height: 64px;
 
 	position: fixed;
-	top: 110px;
-	left: 106px;
+	top: 100px;
+	left: 100px;
 }
 .menu_bars:hover{
 	color: #F1A175;
@@ -21,21 +21,24 @@
 }
 
 .facebook_icon {
-	height: 61px;
+	height: 55px;
+	color: #FFF6E1;
 
 	position: fixed;
 	top: 92px;
-	right: 370px;
+	right: 350px;
 }
 .github_icon {
-	height: 61px;
+	height: 55px;
+	color: #FFF6E1;
 
 	position: fixed;
 	top: 92px;
-	right: 260px;
+	right: 250px;
 }
 .linkedin_icon {
-	height: 61px;
+	height: 55px;
+	color: #FFF6E1;
 
 	position: fixed;
 	top: 92px;
@@ -72,21 +75,21 @@
 	left: 50px;
 }
 .facebook_icon {
-	height: 48px;
+	height: 45px;
 
 	position: fixed;
 	top: 92px;
 	right: 190px;
 }
 .github_icon {
-	height: 48px;
+	height: 45px;
 
 	position: fixed;
 	top: 92px;
 	right: 120px;
 }
 .linkedin_icon {
-	height: 48px;
+	height: 45px;
 
 	position: fixed;
 	top: 92px;
