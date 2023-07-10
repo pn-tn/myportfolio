@@ -1,18 +1,27 @@
 import './Main.css';
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 
+import "@fontsource/ibm-plex-mono";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
+import Qualifications from './components/Qualifications';
+import Projects from './components/Projects';
+import About from './components/About';
 import Menu from './components/Menu';
+import MenuContext from './components/MenuContext';
 
 function Main() {
 
 	const [isMenuOpen, setMenuOpen] = useState(false);
 	const toggleMenu = () => {
 		setMenuOpen(!isMenuOpen);
+	}
+	const closeMenu = () => {
+		setMenuOpen(false);
 	}
 	
 	return (
@@ -29,9 +38,27 @@ function Main() {
 					<FontAwesomeIcon icon={faLinkedin} className="linkedin_icon" />
 				</a>
 			</div>
-			{isMenuOpen && (
-				<Menu />
-			)}
+
+			<MenuContext.Provider value={{ isMenuOpen, closeMenu }}>
+
+				<Router>
+						{isMenuOpen ? (
+
+							<Menu/>
+
+						) : (
+							<Routes>
+								<Route exact path="/" element={<Home/>} />
+								<Route exact path="/qualifications" element={<Qualifications/>} />
+								<Route exact path="/projects" element={<Projects/>} />
+								<Route exact path="/about" element={<About/>} />
+							</Routes>
+						)}
+				</Router>
+
+
+			</MenuContext.Provider>
+
     	</div>
 	);
 }
