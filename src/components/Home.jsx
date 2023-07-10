@@ -5,9 +5,16 @@ import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+
 import profile from './images/Profile.jpg';
+import Resume from './certificates/MyResume.pdf';
 
 function Home() {
+
+	const openPDF = () => {
+		window.open(Resume, '_blank');
+	}
+
 	return (
 		<div className="home">
 			<div className="info">
@@ -20,7 +27,7 @@ function Home() {
 					<FontAwesomeIcon icon={faPhone} className="icon" />
 					<p>+63 995 206 1437</p>
 				</div>
-				<button className="resume">View Resume</button>
+				<button className="resume" onClick={openPDF}>View Resume</button>
 			</div>
 			<div className="profile-pic">
 				<img src ={profile} alt="ProfilePicture" className="mypic" />

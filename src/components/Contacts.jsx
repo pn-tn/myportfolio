@@ -5,7 +5,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
+import Resume from './certificates/MyResume.pdf';
+
 function Contacts() {
+
+	const openPDF = () => {
+		window.open(Resume, '_blank');
+	}
 
 	return (
 		<div className="main-container">
@@ -23,7 +29,7 @@ function Contacts() {
 					<p>+63 995 206 1437</p>
 				</div>
 			</div>
-			<button className="resume">View Resume</button>
+			<button className="resume" onClick={openPDF}>View Resume</button>
 			
 			</div>
 
