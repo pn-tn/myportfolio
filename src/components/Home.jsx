@@ -1,9 +1,30 @@
 import React from 'react';
 
+import './Home.css';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import profile from './images/Profile.jpg';
+
 function Home() {
 	return (
-		<div>
-			<h1>Home</h1>
+		<div className="home">
+			<div className="info">
+				<h1>Aloysius Hasheem A. Sendad</h1>
+				<div className="details">
+					<FontAwesomeIcon icon={faEnvelope} className="icon" />
+					<p>ah.sendad@gmail.com</p>
+				</div>
+				<div className="details">
+					<FontAwesomeIcon icon={faPhone} className="icon" />
+					<p>+63 995 206 1437</p>
+				</div>
+				<button className="resume">View Resume</button>
+			</div>
+			<div className="profile-pic">
+				<img src ={profile} alt="ProfilePicture" className="mypic" />
+			</div>
 		</div>
 	)
 }
