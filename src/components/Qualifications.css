@@ -1,0 +1,25 @@
+.qualifications {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	width: 90vw;
+	min-height: 90vh;
+
+}
+
+.qualifications .header{
+	margin-top: 180px;
+	font-size: 40px;
+}
+.qualifications h1{
+	font-size: 35px;
+}
+
+
+@media (max-width: 1024px) {
+
+	.qualifications .header{
+		margin-top: 150px;
+	}
+}
