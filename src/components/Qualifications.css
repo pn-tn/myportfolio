@@ -4,7 +4,7 @@
 	align-items: center;
 	margin: auto;
 	width: 90vw;
-	min-height: 90vh;
+	min-height: 100vh;
 
 }
 
@@ -14,12 +14,110 @@
 }
 .qualifications h1{
 	font-size: 35px;
+	text-align: center;
+}
+
+.qualifications .skills {
+	display: flex;
+	flex-direction: column;
+	width:90vw;
+	height: 1200px;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.qualifications h2{
+	font-size: 30px;
+	margin-left: 25px;
+}
+.qualifications li::marker {
+	color: #F1A175;
+}
+.qualifications ul {
+	font-size: 25px;
+	margin-left:60px;
+}
+
+.qualifications .skillbox {
+	display: flex;
+	width: 800px;
+	height: 1200px;
+	position: relative;
+
+}
+.qualifications .languages {
+	position: absolute;
+	width: 400px;
+	height: 320px;
+	top:100px;
+	left: 60px;
+	border-radius: 25px;
+	border:5px solid;
+	color: #FFF6E1;
+	border-color: #F1A175;
+
+	background-color: #090F1F;
+}
+.qualifications .tools {
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	top: 250px;
+	right: 0vw;
+	border-radius: 25px;
+	border:5px solid;
+	border-color: #F1A175;
+
+	background-color: #090F1F;
+}
+.qualifications .concepts {
+	position: absolute;
+	width: 650px;
+	height: 280px;
+	top: 530px;
+	left: 0vw;
+	border-radius: 25px;
+	border:5px solid;
+	color: #FFF6E1;
+	border-color: #F1A175;
+
+	background-color: #090F1F;
 }
 
 
 @media (max-width: 1024px) {
 
+	.qualifications ul {
+		font-size: 22px;
+		margin-left:30px;
+	}
 	.qualifications .header{
 		margin-top: 150px;
+	}
+
+	.qualifications .skillbox {
+		width: 700px;
+	}
+	.qualifications .languages {
+		top:70px;
+		left: 65px;
+		width: 360px;
+		height: 320px;
+
+	}
+	.qualifications .tools {
+		top: 230px;
+		right: 0vw;
+		width: 350px;
+		height: 400px;
+
+	}
+	.qualifications .concepts {
+		top: 530px;
+		left: 0vw;
+		width: 530px;
+		height: 250px;
+
 	}
 }
