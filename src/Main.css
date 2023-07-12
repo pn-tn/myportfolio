@@ -13,6 +13,7 @@
 	position: fixed;
 	top: 100px;
 	left: 100px;
+	z-index: 999;
 }
 .menu_bars:hover{
 	color: #F1A175;
@@ -28,6 +29,7 @@
 	position: fixed;
 	top: 92px;
 	right: 350px;
+	z-index: 999;
 }
 .github_icon {
 	height: 55px;
@@ -36,6 +38,7 @@
 	position: fixed;
 	top: 92px;
 	right: 250px;
+	z-index: 999;
 }
 .linkedin_icon {
 	height: 55px;
@@ -44,6 +47,7 @@
 	position: fixed;
 	top: 92px;
 	right: 150px;
+	z-index: 999;
 }
 .facebook_icon:hover {
 	color: #F1A175;
