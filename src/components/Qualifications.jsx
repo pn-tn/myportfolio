@@ -8,6 +8,16 @@ function Qualifications() {
 		<div className="qualifications">
 			<h1 className="header">Qualifications</h1>
 			<div className="education">
+				<div className="education_card">
+					<h2>BS in Computer Science</h2>
+					<p className="org">Xavier University - Ateneo de Cagayan</p>
+					<p className="year">2020 - present</p>
+				</div>
+				<div className="education_card_right">
+					<h2>Introduction to Cybersecurity</h2>
+					<p className="org">Cisco Networking Academy</p>
+					<p className="year">2021</p>
+				</div>
 
 			</div>
 			<div className="accomplishments">

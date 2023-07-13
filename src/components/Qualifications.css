@@ -22,11 +22,52 @@
 .qualifications h2{
 	font-size: 30px;
 	margin-left: 25px;
+	margin-right: 25px;
 }
 
 /*
  * Education / Certifications
  * */
+
+.education {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.education_card {
+	width: 600px;
+	margin: auto;
+	margin-bottom: 40px;
+
+	border-left: 7px solid;
+	border-radius: 15px;
+	border-color: #F1A175;
+}
+.education_card_right {
+	width: 600px;
+	text-align: right;
+	margin: auto;
+	margin-bottom: 20px;
+
+	border-right: 7px solid;
+	border-radius: 15px;
+	border-color: #F1A175;
+}
+.education_card .org,
+.education_card_right .org
+{
+	font-size: 25px;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.education_card .year,
+.education_card_right .year
+{
+	font-size: 18px;
+	margin-right: 30px;
+	margin-left: 30px;
+}
 
 /*
  * Relevant Accomplishments
@@ -43,7 +84,7 @@
 	text-align: left;
 	width: 600px;
 	margin:auto;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 
 	border-left: 5px solid;
 	border-bottom: 5px solid;
