@@ -15,22 +15,63 @@
 .qualifications h1{
 	font-size: 35px;
 	text-align: center;
-}
-
-.qualifications .skills {
-	display: flex;
-	flex-direction: column;
-	width:90vw;
-	height: 1200px;
-	justify-content: center;
-	align-items: center;
-
+	margin-bottom: 100px;
+	margin-top: 150px;
 }
 
 .qualifications h2{
 	font-size: 30px;
 	margin-left: 25px;
 }
+
+/*
+ * Education / Certifications
+ * */
+
+/*
+ * Relevant Accomplishments
+ * */
+
+.accomplishments{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+.accomplishment_card {
+	text-align: left;
+	width: 600px;
+	margin:auto;
+	margin-bottom: 20px;
+
+	border-left: 5px solid;
+	border-bottom: 5px solid;
+	border-radius: 20px;
+	border-color: #F1A175;
+}
+.accomplishment_card .org{
+	font-size: 25px;
+	margin-left: 30px;
+}
+.accomplishment_card .year{
+	margin-left: 30px;
+}
+
+
+
+/*
+ * Technical Skills
+ * */
+.qualifications .skills {
+	display: flex;
+	flex-direction: column;
+	width:90vw;
+	height: 1200px;
+	align-items: center;
+
+}
+
 .qualifications li::marker {
 	color: #F1A175;
 }
@@ -42,7 +83,7 @@
 .qualifications .skillbox {
 	display: flex;
 	width: 800px;
-	height: 800px;
+	height: 1000px;
 	position: relative;
 
 }
@@ -96,6 +137,10 @@
 		margin-top: 150px;
 	}
 
+
+	/*
+	 * Technical Skills
+	 * */
 	.qualifications .skillbox {
 		width: 700px;
 	}
