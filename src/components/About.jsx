@@ -3,6 +3,9 @@ import React from 'react';
 import './About.css';
 import Contacts from './Contacts';
 
+import IconArt from './images/icon_art.png';
+import IconGaming from './images/icon_gaming.png';
+
 function About() {
 	return (
 		<div className="about">
@@ -28,7 +31,9 @@ function About() {
 					creative hobbies such as...
 				</p>
 				<div className="music-art">
-					<div className="image"></div>
+					<div className="image">
+						<img src={IconArt} className="image" />
+					</div>
 					<div className="descr">
 						<h2>Music & Art</h2>
 						<p>
@@ -46,7 +51,9 @@ function About() {
 							virtual worlds and diving into imaginative adventures. 
 						</p>
 					</div>	
-					<div className="image"></div>
+					<div className="image">
+						<img src={IconGaming} className="image" />
+					</div>
 				</div>
 			</div>
 			<Contacts/>
