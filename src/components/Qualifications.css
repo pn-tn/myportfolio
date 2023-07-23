@@ -208,3 +208,64 @@
 
 	}
 }
+
+@media (max-width: 428px) {
+	.qualifications .header {
+		margin-top: 150px;
+		font-size:30px;
+	}
+	.qualifications h1 {
+		font-size:28px;
+	}
+	.qualifications h2 {
+		font-size: 25px;
+		max-width: 90vw;
+	}
+
+	.education_card,
+	.education_card_right {
+		width: 80vw;
+	}
+	.org {
+		font-size: 10px;
+	}
+	.year {
+		font-size: 8px;
+	}
+	.accomplishment_card {
+		width: 80vw;
+	}
+	.qualifications ul {
+		font-size: 18px;
+		margin-left:10px;
+	}
+
+
+	/*
+	 * Technical Skills
+	 * */
+	.qualifications .skillbox {
+		width: 90vw;
+	}
+	.qualifications .languages {
+		top:70px;
+		left: 10px;
+		width: 190px;
+		height: 320px;
+
+	}
+	.qualifications .tools {
+		top: 290px;
+		right: 0vw;
+		width: 210px;
+		height: 300px;
+
+	}
+	.qualifications .concepts {
+		top: 530px;
+		left: 0vw;
+		width: 280px;
+		height: 290px;
+
+	}
+}

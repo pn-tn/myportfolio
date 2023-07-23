@@ -52,3 +52,30 @@
 	height: 100%;
 	object-fit:cover;
 }
+@media (max-width: 428px) {
+	.projects {
+		display: flex;
+		align-items: center;
+		justify-content:center;
+		width:100vw;
+	}
+	.projects .header {
+		margin-top: 150px;
+		font-size:30px;
+	}
+	.projects h1 {
+		font-size:28px;
+	}
+	.projects h2 {
+		font-size: 25px;
+		max-width: 90vw;
+	}
+	.project_template p,
+	.project_image {
+		width: 80vw;
+	}
+	.projects p {
+		font-size: 20px;
+		width: 80vw;
+	}
+}

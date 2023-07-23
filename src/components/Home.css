@@ -78,3 +78,18 @@
 		margin-top: 180px;
 	}
 }
+@media (max-width: 428px) {
+
+	.home .profile-pic {
+		margin: auto;
+		margin-top: 180px;
+
+		width: 240px;
+		height: 372px;
+	}
+	.home .info h1 {
+		font-size: 30px;
+		max-width: 100vw;
+	}
+
+}

@@ -1,5 +1,6 @@
 .menu {
 	display: flex;
+	flex-direction: column;
 	color: #FFF6E1;
 	width: 90vw;
 	min-height: 90vh;
@@ -7,8 +8,10 @@
 }
 .items{
 	display: flex;
-	width: 100vw;
+	width: 80vw;
 	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
 	flex-direction: column;
 }
 .menu_item {
@@ -35,10 +38,15 @@
 }
 
 .menu p {
+	display: block;
 	font-size: 20px;
 }
 
-@media (max-width: 1024px) {
+
+@media (max-width: 1340px) and (min-width: 941px) {
+	.menu {
+		flex-direction: row;
+	}
 	.menu p {
 		margin-left: 20px;
 		font-size: 19px;
@@ -46,9 +54,49 @@
 
 	.menu_item {
 		flex-direction: column;
-		margin-left: 150px;
+		margin-left: 100px;
 	}
 	.customlink {
 		font-size: 38px;
+	}
+	.menu .main-container hr {
+		margin-left: 10px;
+		height: 69vh;
+		width: 0px;
+	}
+	.menu .main-container {
+		flex-direction: row;
+	}
+	.menu .contacts {
+		width: 300px;
+		flex-direction: column;
+
+	}
+	.menu .main-container .info .details .icon {
+		margin-left: 20px;
+	}
+	.menu .resume {
+		margin-left: 30px;
+	}
+
+}
+@media (max-width: 940px) {
+	.menu .menu_item p {
+		display: none;
+	}
+	.menu .menu_item {
+		margin: auto;
+		margin-bottom:35px;
+	}
+}
+@media (max-width: 428px) {
+	.customlink {
+		font-size: 33px;
+	}
+	.menu .contacts p {
+		font-size: 20px;
+	}
+	.menu .contacts {
+		margin-bottom:0px;
 	}
 }

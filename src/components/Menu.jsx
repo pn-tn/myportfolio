@@ -27,8 +27,8 @@ function Menu() {
 				<Link to="/about" onClick={closeMenu} className="customlink">About</Link>
 				<p>...About Me, Future Goals, Personal Stuff</p>
 			</div>
-		<Contacts/>
 		</div>
+		<Contacts/>
 
 		
 		</div>

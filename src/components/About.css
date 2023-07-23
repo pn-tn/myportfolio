@@ -82,3 +82,26 @@
 		max-width: 60vw;
 	}
 }
+@media (max-width: 428px) {
+	.about .header {
+		margin-top: 150px;
+		font-size:30px;
+	}
+	.about h1 {
+		font-size:28px;
+	}
+	.about h2 {
+		font-size: 25px;
+		max-width: 90vw;
+	}
+	.personal .music-art {
+		flex-direction:column;
+		width:80vw;
+		border-top: 5px solid;
+	}
+	.personal .gaming {
+		flex-direction:column-reverse;
+		width:80vw;
+		border-top: 5px solid;
+	}
+}
