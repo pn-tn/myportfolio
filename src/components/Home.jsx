@@ -25,7 +25,7 @@ function Home() {
 				</div>
 				<div className="details">
 					<FontAwesomeIcon icon={faPhone} className="icon" />
-					<p>+63 995 206 1437</p>
+					<p>+63 927 423 8416</p>
 				</div>
 				<button className="resume" onClick={openPDF}>View Resume</button>
 			</div>
