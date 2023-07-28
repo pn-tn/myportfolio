@@ -24,12 +24,12 @@ function Qualifications() {
 				<h1>Relevant Accomplishments</h1>
 				<div className="accomplishment_card">
 					<h2>Leadership Award</h2>
-					<p className="org">Philippine Air force - Air Force Reserve Command</p>
+					<p className="org">Philippine Air Force - Air Force Reserve Command</p>
 					<p className="year">2019</p>
 				</div>
 				<div className="accomplishment_card">
 					<h2>AFRC Commander's Award</h2>
-					<p className="org">Philippine Air force - Air Force Reserve Command</p>
+					<p className="org">Philippine Air Force - Air Force Reserve Command</p>
 					<p className="year">2018</p>
 				</div>
 			</div>
