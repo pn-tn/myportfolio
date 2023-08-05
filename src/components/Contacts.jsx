@@ -26,7 +26,7 @@ function Contacts() {
 				</div>
 				<div className="details">
 					<FontAwesomeIcon icon={faPhone} className="icon" />
-					<p>+63 927 423 8416</p>
+					<p>+63 967 438 6126</p>
 				</div>
 			</div>
 			<button className="resume" onClick={openPDF}>View Resume</button>
