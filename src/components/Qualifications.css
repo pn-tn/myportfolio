@@ -278,6 +278,10 @@
 	.education_card_right {
 		width: 80vw;
 	}
+	.experience_card,
+	.experience_card_right {
+		width: 80vw;
+	}
 	.org {
 		font-size: 10px;
 	}
