@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.9352212d.css",
+    "main.css": "/myportfolio/static/css/main.e6b57a5a.css",
     "main.js": "/myportfolio/static/js/main.097fa7f3.js",
     "static/js/787.1f11dfe9.chunk.js": "/myportfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/thisPortfolio.png": "/myportfolio/static/media/thisPortfolio.551f4aa7c35160bebba7.png",
@@ -19,12 +19,12 @@
     "static/media/ibm-plex-mono-cyrillic-ext-400-normal.woff": "/myportfolio/static/media/ibm-plex-mono-cyrillic-ext-400-normal.18dd695e5b1103c22279.woff",
     "static/media/ibm-plex-mono-vietnamese-400-normal.woff": "/myportfolio/static/media/ibm-plex-mono-vietnamese-400-normal.442fb799b2a313edbc10.woff",
     "index.html": "/myportfolio/index.html",
-    "main.9352212d.css.map": "/myportfolio/static/css/main.9352212d.css.map",
+    "main.e6b57a5a.css.map": "/myportfolio/static/css/main.e6b57a5a.css.map",
     "main.097fa7f3.js.map": "/myportfolio/static/js/main.097fa7f3.js.map",
     "787.1f11dfe9.chunk.js.map": "/myportfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9352212d.css",
+    "static/css/main.e6b57a5a.css",
     "static/js/main.097fa7f3.js"
   ]
 }
