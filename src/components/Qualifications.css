@@ -161,7 +161,7 @@
 	display: flex;
 	flex-direction: column;
 	width:90vw;
-	height: 1200px;
+	height: auto;
 	align-items: center;
 
 }
@@ -176,9 +176,10 @@
 
 .qualifications .skillbox {
 	display: flex;
-	width: 800px;
-	height: 1000px;
+	width: 900px;
+	height: 1250px;
 	position: relative;
+	/* background-color: red; */
 
 }
 .qualifications .languages {
@@ -194,12 +195,36 @@
 
 	background-color: #090F1F;
 }
-.qualifications .tools {
+.qualifications .tools_webdev {
 	position: absolute;
 	width: 400px;
-	height: 400px;
+	height: 320px;
 	top: 250px;
+	right: 100px;
+	border-radius: 25px;
+	border:5px solid;
+	border-color: #F1A175;
+
+	background-color: #090F1F;
+}
+.qualifications .tools_datascience {
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	top: 520px;
 	right: 0vw;
+	border-radius: 25px;
+	border:5px solid;
+	border-color: #F1A175;
+
+	background-color: #090F1F;
+}
+.qualifications .tools_devenv {
+	position: absolute;
+	width: 350px;
+	height: 400px;
+	top: 510px;
+	left: 0vw;
 	border-radius: 25px;
 	border:5px solid;
 	border-color: #F1A175;
@@ -209,9 +234,9 @@
 .qualifications .concepts {
 	position: absolute;
 	width: 650px;
-	height: 280px;
-	top: 530px;
-	left: 0vw;
+	height: 320px;
+	top: 870px;
+	left: 80px;
 	border-radius: 25px;
 	border:5px solid;
 	color: #FFF6E1;
@@ -245,7 +270,7 @@
 		height: 320px;
 
 	}
-	.qualifications .tools {
+	.qualifications .tools_webdev {
 		top: 230px;
 		right: 0vw;
 		width: 350px;
@@ -310,7 +335,7 @@
 		height: 320px;
 
 	}
-	.qualifications .tools {
+	.qualifications .tools_webdev {
 		top: 290px;
 		right: 0vw;
 		width: 210px;

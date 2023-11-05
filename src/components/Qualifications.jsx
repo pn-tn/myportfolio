@@ -77,28 +77,47 @@ function Qualifications() {
 
 				<div className="skillbox">		
 				<div className="languages">
-					<h2>Computer Languages</h2>
+					<h2>Programming Languages</h2>
 					<ul>
 						<li>Python</li>
 						<li>Java</li>
 						<li>C / C# / C++</li>
 						<li>Javascript</li>
+					</ul>
+				</div>
+				
+				<div className="tools_devenv">
+					<h2>Dev Environment (Version Control & OS)</h2>
+					<ul>
+						<li>Git</li>
+						<li>Github</li>
+						<li>Bash</li>
+						<li>Linux</li>
+						<li>Windows</li>
+					</ul>
+				</div>
+				
+				<div className="tools_webdev">
+					<h2>Webdev Tools & Frameworks</h2>
+					<ul>
+						<li>React JS</li>
+						<li>Django</li>
 						<li>HTML</li>
 						<li>CSS</li>
 					</ul>
 				</div>
-				
-				<div className="tools">
-					<h2>Tools & Frameworks</h2>
+
+				<div className="tools_datascience">
+					<h2>Data Science Tools</h2>
 					<ul>
-						<li>React JS</li>
-						<li>Django</li>
-						<li>Git</li>
-						<li>Github</li>
-						<li>Bash</li>
+						<li>Numpy</li>
+						<li>Pandas</li>
+						<li>Matplotlib</li>
+						<li>Scikit-learn</li>
+						<li>JupyterLab</li>
 					</ul>
 				</div>
-				
+
 				<div className="concepts">
 					<h2>Technologies/ Concepts</h2>
 					<ul>
@@ -106,6 +125,8 @@ function Qualifications() {
 						<li>Database Systems</li>
 						<li>Modelling and Simulation</li>
 						<li>Data Analysis and Visualization</li>
+						<li>Software Engineering</li>
+						<li>Test-Driven Development</li>
 					</ul>
 				</div>
 				</div>
