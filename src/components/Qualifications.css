@@ -345,53 +345,28 @@
 	 * Technical Skills
 	 * */
 	.qualifications .skillbox {
-		height: auto;
+		display: flex;
+		justify-content: center;
 		width: 90vw;
+		flex-direction: column;
+	}
+
+	.qualifications .skillbox .languages,
+	.qualifications .skillbox .tools_webdev,
+	.qualifications .skillbox .tools_datascience,
+	.qualifications .skillbox .tools_devenv,
+	.qualifications .skillbox .concepts
+	{
+		position: relative;
+		top: unset;
+		bottom: unset;
+		left: unset;
+		right: unset;
+
+		margin-bottom: 10px;
+
+		height: auto;
+		width: 100%;
 		justify-content:center;
-	}
-	.qualifications .languages {
-		top: 0px;
-		bottom: auto;
-		left: auto;
-		right: auto;
-		width: 100%;
-		height: auto;
-
-	}
-	.qualifications .tools_webdev {
-		top: 200px;
-		bottom: auto;
-		left: auto;
-		right: auto;
-		width: 100%;
-		height: auto;
-
-	}
-	.qualifications .tools_datascience {
-		top: 433px;
-		bottom: auto;
-		left: auto;
-		right: auto;
-		width: 100%;
-		height: auto;
-
-	}
-	.qualifications .tools_devenv {
-		top: 656px;
-		bottom: auto;
-		left: auto;
-		right: auto;
-		width: 100%;
-		height: auto;
-
-	}
-	.qualifications .concepts {
-		top: 945px;
-		bottom: auto;
-		left: auto;
-		right: auto;
-		width: 100%;
-		height: auto;
-
 	}
 }
