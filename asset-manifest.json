@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.e6b57a5a.css",
-    "main.js": "/myportfolio/static/js/main.e95929e1.js",
+    "main.js": "/myportfolio/static/js/main.d8b7d5de.js",
     "static/js/787.1f11dfe9.chunk.js": "/myportfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/thisPortfolio.png": "/myportfolio/static/media/thisPortfolio.551f4aa7c35160bebba7.png",
-    "static/media/MyResume.pdf": "/myportfolio/static/media/MyResume.387868719e91e16f6b16.pdf",
+    "static/media/MyResume.pdf": "/myportfolio/static/media/MyResume.38c4e1d68bcf6d277573.pdf",
     "static/media/Profile.jpg": "/myportfolio/static/media/Profile.579d7c5cf7be77abaf1e.jpg",
     "static/media/icon_gaming.png": "/myportfolio/static/media/icon_gaming.ed29c1852eec9f9cc152.png",
     "static/media/icon_art.png": "/myportfolio/static/media/icon_art.55f7e05d12e61ede2ea2.png",
@@ -20,11 +20,11 @@
     "static/media/ibm-plex-mono-vietnamese-400-normal.woff": "/myportfolio/static/media/ibm-plex-mono-vietnamese-400-normal.442fb799b2a313edbc10.woff",
     "index.html": "/myportfolio/index.html",
     "main.e6b57a5a.css.map": "/myportfolio/static/css/main.e6b57a5a.css.map",
-    "main.e95929e1.js.map": "/myportfolio/static/js/main.e95929e1.js.map",
+    "main.d8b7d5de.js.map": "/myportfolio/static/js/main.d8b7d5de.js.map",
     "787.1f11dfe9.chunk.js.map": "/myportfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6b57a5a.css",
-    "static/js/main.e95929e1.js"
+    "static/js/main.d8b7d5de.js"
   ]
 }
